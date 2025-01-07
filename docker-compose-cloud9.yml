@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  cloud9:
+    image: linuxserver/cloud9
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
